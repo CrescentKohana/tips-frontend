@@ -1,6 +1,7 @@
 import { Card, CardContent, Typography } from "@material-ui/core"
 import Link from "next/link"
 import { FC } from "react"
+import ReactMarkdown from "react-markdown"
 import styles from "../styles/Popup.module.css"
 import { TinyPodcast } from "../types"
 
@@ -16,7 +17,7 @@ const SearchResult: FC<TinyPodcast> = (result, closePopup) => {
             <CardContent>
               <Typography variant="h6">{result.title}</Typography>
               <Typography variant="body2" component="p">
-                {result.tips}
+                <ReactMarkdown>{result.tips}</ReactMarkdown>
               </Typography>
             </CardContent>
           </Card>
