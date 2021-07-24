@@ -27,7 +27,7 @@ export default function Home({ data }: Props) {
           <a href="https://webbidevaus.fi">Tips</a>
         </h1>
         <p className="description">
-          Tips from webbidevaus.fi. <a href="https://github.com/Luukuton/podcast-tips">GitHub Repository</a> of the
+          Tips from webbidevaus.fi. <a href="https://github.com/Luukuton/tips-frontend">GitHub Repository</a> of the
           site.
         </p>
         <p className="description">
