@@ -13,8 +13,8 @@ interface SearchProps {
 /**
  * Search bar and results.
  *
- * @param chapters
- * @param closePopup  when a search result is clicked, the popup is closed.
+ * @param data
+ * @param closePopup  when a search result is clicked, the popup will be closed.
  */
 const Search: FC<SearchProps> = ({ data, closePopup }) => {
   // eslint-disable-next-line react-hooks/exhaustive-deps

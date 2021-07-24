@@ -3,7 +3,7 @@
  * splitting the tips header (## Jakson valinnat).
  *
  * @param description to parse
- * @returns recs as in tips
+ * @returns tips as string
  */
 export function parseTips(description: string): string {
   let tip = description.split(/##? \*?\*?Jakson valinnat\*?\*?/)[1]

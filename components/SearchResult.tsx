@@ -4,6 +4,9 @@ import { FC } from "react"
 import styles from "../styles/Popup.module.css"
 import { TinyPodcast } from "../types"
 
+/**
+ * A linked search result.
+ */
 const SearchResult: FC<TinyPodcast> = (result, closePopup) => {
   return (
     <div id={`${result.number}`} key={`${result.number}`} className={styles.result}>

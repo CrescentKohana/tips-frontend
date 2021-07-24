@@ -11,6 +11,9 @@ interface Props {
   data: TinyPodcast[]
 }
 
+/**
+ * The main page of the app.
+ */
 export default function Home({ data }: Props) {
   return (
     <div className={styles.container}>
