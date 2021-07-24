@@ -1,0 +1,38 @@
+.container {
+  margin: 2rem 0 0 0;
+}
+
+.results {
+  margin-top: 5px;
+  list-style: none;
+  padding: 0;
+  overflow-y: auto;
+  height: 50vh;
+}
+
+.results::-webkit-scrollbar {
+  width: 10px;
+}
+
+.results::-webkit-scrollbar-track-piece {
+  background-color: #36393b;
+}
+
+.results::-webkit-scrollbar-thumb {
+  background-color: #181b1e;
+  outline: 2px solid #36393b;
+  outline-offset: -2px;
+}
+
+.result {
+  margin-bottom: 5px;
+}
+
+.result a {
+  text-decoration: none;
+}
+
+.textField {
+  background-color: rgb(23, 26, 29);
+  border-radius: 2px;
+}

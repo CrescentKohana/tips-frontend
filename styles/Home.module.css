@@ -1,0 +1,29 @@
+/* Small screens and mobile */
+@media screen and (max-width: 499px) {
+  .container {
+    min-height: 100vh;
+    margin: 0;
+  }
+}
+
+/* Desktop */
+@media screen and (min-width: 500px) {
+  .container {
+    min-height: 100vh;
+    margin: 0 15%;
+  }
+}
+
+.main {
+  background-color: #cfcfcf;
+  padding: 3rem;
+}
+
+.title {
+  margin: 0;
+  font-size: 4rem;
+}
+
+.tips {
+  overflow-wrap: break-word;
+}
