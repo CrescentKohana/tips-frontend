@@ -2,6 +2,8 @@
 
 Lists every tip of each episode from [webbidevaus.fi](https://webbidevaus.fi/) podcast. Made with Next.js (Server Side Rendered) & TypeScript.
 
+### Demo: [tips.luukuton.fi](https://tips.luukuton.fi)
+
 ## Usage
 
 - Create a .env file with `PODCAST_API_URL=https://webbidevaus.fi`
@@ -10,8 +12,8 @@ Lists every tip of each episode from [webbidevaus.fi](https://webbidevaus.fi/) p
 
 ### Docker
 
-- Build docker image with `docker build --build-arg PODCAST_API_URL=https://webbidevaus.fi .`
-- Run `docker run -p <host port>:3000 <id>`
+- Build docker image with `docker build --tag tips --build-arg PODCAST_API_URL=https://webbidevaus.fi .`
+- Run `docker run -d -p <host port>:3000 <id>`
 
 ## Dependencies
 
